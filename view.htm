@@ -1,0 +1,364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="view_files/styles.css">
+<link rel="stylesheet" type="text/css" href="view_files/styles_002.css">
+
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://scele.cs.ui.ac.id/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://scele.cs.ui.ac.id/theme/standard/styles_ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://scele.cs.ui.ac.id/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://scele.cs.ui.ac.id/theme/scele/styles_ie6.css" />
+<![endif]-->
+
+    <meta name="keywords" content="moodle, IKO31503 - GSL1112: Tugas kelompok 01 ">
+    <title>IKO31503 - GSL1112: Tugas kelompok 01</title>
+    <link rel="shortcut icon" href="http://scele.cs.ui.ac.id/theme/scele/favicon.ico">
+    <!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(http://scele.cs.ui.ac.id/lib/csshover.htc);} /*]]>*/</style>-->
+
+<script type="text/javascript" src="view_files/javascript-static.js"></script>
+<script type="text/javascript" src="view_files/javascript-mod.php"></script>
+<script type="text/javascript" src="view_files/overlib.js"></script>
+<script type="text/javascript" src="view_files/overlib_cssstyle.js"></script>
+<script type="text/javascript" src="view_files/cookies.js"></script>
+<script type="text/javascript" src="view_files/ufo.js"></script>
+<script type="text/javascript" src="view_files/dropdown.js"></script>
+
+<script type="text/javascript" defer="defer">
+//<![CDATA[
+setTimeout('fix_column_widths()', 20);
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "http://scele.cs.ui.ac.id" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+}
+
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script>
+</head><body class="mod-resource course-1151 dir-ltr lang-en_utf8" id="mod-resource-view">   
+    
+
+<div id="page">
+			
+    	<div id="header2" class="clearfix">        	
+        <h1 class="headermain">[REG] Jaringan Komputer A/B - Gasal 2011/2012</h1>
+		</div>	<div style="background-color: rgb(255, 229, 30); height: 2px;"></div>
+		
+		<div id="top_menu">
+			<div id="top_menu_date">
+<div><script language="Javascript" type="text/javascript">
+//<![CDATA[
+<!--
+
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)     {
+        return (number < 1000) ? number + 1900 : number;
+                                                                }
+
+// Join it all together
+today =  days[now.getDay()] + " " +
+              date + " " +
+                          months[now.getMonth()] + " " +               
+                (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write("" +today+ " ");
+  
+//-->
+//]]>
+</script>Tuesday 25 October 2011 </div>
+</div>
+    
+<ul>     
+	<li class="home"><div><a href="http://scele.cs.ui.ac.id/"><img src="view_files/home_icon.png" alt="" width="18" height="17"></a></div>
+	</li> 
+ 
+	<li class="link">
+		<div><a href="#">Faculty Homepage</a>
+			<ul>
+							</ul>			
+		</div>
+		<img class="icon" src="view_files/drop.gif" alt="">
+	</li>
+ 
+	<li class="link">
+		<div><a href="#">Academic Links</a>
+        	<ul>     
+		        <li><a target="_blank" href="http://ui.ac.id/">Website Universitas Indonesia</a></li>
+				<li><a target="_blank" href="http://www.clr.ui.ac.id/">Center for Learning Resources UI</a></li>
+				<li><a target="_blank" href="http://www.lib.ui.ac.id/">Perpustakaan UI</a></li>
+				<li><a target="_blank" href="http://www.digilib.ui.ac.id/">Katalog Perpustakaan UI</a></li>
+			</ul>
+		</div>
+		<img class="icon" src="view_files/drop.gif" alt="">
+	</li>
+		            
+	<!--li class="link">
+		<div><a href="#">Support</a> 
+			<ul>     
+		        <li><a href="http://student.cs.ui.ac.id/~sceleui/mod/usermanual/view.php?id=212">User Manual</a></li>
+			<li><a href="http://student.cs.ui.ac.id/~sceleui/mod/resource/view.php?id=217">FAQ</a></li>
+			</ul>
+      	
+		</div>
+			<img class="icon" src="http://scele.cs.ui.ac.id/theme/scele/images/drop.gif" alt="" />
+
+	</li-->
+</ul>
+ 
+ 
+ 		
+ 
+ 
+        
+					
+		</div>
+		
+		  
+    <div class="navbar clearfix">
+        <div class="breadcrumb"><h2 class="accesshide">You are here</h2> <ul>
+<li class="first"><a onclick="this.target='_top'" href="http://scele.cs.ui.ac.id/">SCeLE</a></li><li> <span class="accesshide">/&nbsp;</span><span class="arrow sep">►</span> <a onclick="this.target='_top'" href="http://scele.cs.ui.ac.id/course/view.php?id=1151">IKO31503 - GSL1112</a></li><li> <span class="accesshide">/&nbsp;</span><span class="arrow sep">►</span> <a onclick="this.target='_top'" href="http://scele.cs.ui.ac.id/mod/resource/index.php?id=1151">Resources</a></li><li> <span class="accesshide">/&nbsp;</span><span class="arrow sep">►</span> Tugas kelompok 01</li></ul></div>
+        <div class="navbutton">&nbsp;</div>
+    </div>
+    <div class="headermenu"><div class="navigation">
+<ul><li><form action="http://scele.cs.ui.ac.id/mod/forum/view.php" onclick="this.target='_top';"><fieldset class="invisiblefieldset"><input name="id" value="30373" type="hidden"><button type="submit" title="Previous activity"><span class="arrow">◄</span><span class="accesshide">&nbsp;Previous activity</span></button></fieldset></form></li><li><form action="http://scele.cs.ui.ac.id/course/jumpto.php" method="get" id="navmenupopup" class="popupform"><div><select id="navmenupopup_jump" name="jump" onchange="self.location=document.getElementById('navmenupopup').jump.options[document.getElementById('navmenupopup').jump.selectedIndex].value;">
+   <option value="http://scele.cs.ui.ac.id/mod/forum/view.php?id=29505" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/forum/icon.gif);">Forum Pengumuman</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30030" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Slide Kuliah</option>
+   <option value="http://scele.cs.ui.ac.id/mod/forum/view.php?id=30373" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/forum/icon.gif);">Forum Diskusi</option>
+   <optgroup label="Tugas Individu/Kelompok">   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=31386" selected="selected" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Jump to...</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=31387" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Building a Multi-Threaded Web Server</option>
+   <option value="http://scele.cs.ui.ac.id/mod/assignment/view.php?id=31466" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/assignment/icon.gif);">Pengumpulan Tugas Kelompok 01 (deadline: Kamis, 27...</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=31202" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Pertanyaan Review Chapter 2</option>
+   </optgroup>   <optgroup label="Helpful links">   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30372" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Demo Applet Konsep Jaringan</option>
+   </optgroup>   <optgroup label="Tugas Lab">   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30471" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">File Tugas</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30484" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Ketentuan Dokumen Jawaban Tugas Lab 01- Kelas A</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30564" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Ketentuan Dokumen Jawaban Tugas Lab 01- Kelas B</option>
+   <option value="http://scele.cs.ui.ac.id/mod/assignment/view.php?id=30472" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/assignment/icon.gif);">Pengumpulan Tugas Lab 01 - Kelas A (deadline: Sela...</option>
+   <option value="http://scele.cs.ui.ac.id/mod/assignment/view.php?id=30565" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/assignment/icon.gif);">Pengumpulan Tugas Lab 01 - Kelas B (deadline: Kami...</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30496" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Revisi Dokumen Wireshark_HTTP</option>
+   <option value="http://scele.cs.ui.ac.id/mod/resource/view.php?id=30972" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/resource/icon.gif);">Ketentuan Dokumen Jawaban Tugas Lab 02 Kelas A dan B</option>
+   <option value="http://scele.cs.ui.ac.id/mod/assignment/view.php?id=30973" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/assignment/icon.gif);">Pengumpulan Tugas Lab 02 - Kelas A (deadline: Sabt...</option>
+   <option value="http://scele.cs.ui.ac.id/mod/assignment/view.php?id=30974" style="background-image: url(http://scele.cs.ui.ac.id/theme/scele/pix/mod/assignment/icon.gif);">Pengumpulan Tugas Lab 02 - Kelas B (deadline: Sabt...</option>
+    </optgroup></select><input name="sesskey" value="bZtYVMRdih" type="hidden"><div id="noscriptnavmenupopup" style="display: none;"><input value="Go" type="submit"></div><script type="text/javascript">
+//<![CDATA[
+document.getElementById("noscriptnavmenupopup").style.display = "none";
+//]]>
+</script></div></form></li><li><form action="http://scele.cs.ui.ac.id/mod/resource/view.php" onclick="this.target='_top';"><fieldset class="invisiblefieldset"><input name="id" value="31387" type="hidden"><button type="submit" title="Next activity"><span class="accesshide">Next activity&nbsp;</span><span class="arrow">►</span></button></fieldset></form></li></ul>
+</div></div>
+    
+
+
+<!-- END OF HEADER -->
+<div id="content"><div class="box generalbox generalboxcontent boxaligncenter clearfix"><style type="text/css"><!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+--></style>
+<style type="text/css"><!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+--></style>
+<p style="margin-bottom: 0in;" align="center"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><img src="view_files/makara.jpg" width="81" height="83"></span></span></p>
+<p style="margin-bottom: 0in;" align="center"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><a class="resource autolink" title="Tugas kelompok 01" href="http://scele.cs.ui.ac.id/mod/resource/view.php?r=33574690">Tugas Kelompok 01</a></span></span></p>
+<p style="margin-bottom: 0in;" align="center"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">IKI20505 - Sistem Operasi </span></span></p>
+<p style="margin-bottom: 0in;" align="center"><span style="font-family: Nimbus Roman No9 L,serif;"><span style="font-size: large;"><b>Membuat Web Server Berbasis Multithread</b></span></span></p>
+<p style="margin-bottom: 0in;" align="center">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b>Tujuan</b></span></span></p>
+<ul>
+<li>
+<p style="margin-bottom: 0in; font-weight: normal;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Mahasiswa 	memahami konsep socket dan HTTP berbasis TCP</span></span></p>
+</li>
+<li>
+<p style="margin-bottom: 0in; font-weight: normal;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Mahasiswa 	mampu memanfaatkan API Socket dan Thread untuk membuat dan mengatur 	web server</span></span></p>
+</li>
+</ul>
+<p style="margin-bottom: 0in;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b>Sifat Tugas</b></span></span></p>
+<p style="margin-bottom: 0in; font-weight: normal;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Kelompok (max: 2 orang)<br></span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b>Deskripsi</b></span></span></p>
+<p style="margin-bottom: 0in; font-weight: normal;" align="justify"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Webserver
+adalah aplikasi server berbasis TCP yang mengirimkan/menampilkan objek
+file (html, image, video, dan lainnya) pada browser ataupun aplikasi
+client lainnya.</span></span></p>
+<p style="margin-bottom: 0in; font-weight: normal;" align="justify"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Pada
+tugas kali ini, Anda diminta untuk membuat aplikasi web server yang
+dapat merespon setiap&nbsp;permintaan objek dari client. Penjelasan
+teknis tugas dapat Anda baca <a href="http://scele.cs.ui.ac.id/file.php/1151/Tugas/Tk01.html">disini</a>.Tugas ini diadaptasi dari Assignment 1 buku <i>Computer Networking, James F. Kurose, Keith W. Ross, edisi 5</i>.<br></span></span></p>
+<p><span style="font-size: medium;">
+<style type="text/css"><!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+--></style>
+</span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Spesifikasi tambahan program :</span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">- User dapat menentukan no port dengan menambahkan argumen pada command line. Range no port antara 1024 sampai 65535 </span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">- Akses URL http://namahost:port/ atau </span></span><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">http://namahost:port/direktori </span></span><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">akan secara otomatis dipersepsikan oleh web server sebagai &nbsp;http://namahost:port/index.html atau </span></span><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">http://namahost:port/direktori/index.html</span></span><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">. Jika index.html tidak ditemukan, web server akan menampilkan daftar nama file/direktori dari <i>current directory</i> ke layar browser.&nbsp; Setiap nama file/direktori mempunyai link lokasi yang dapat diklik oleh user.<br></span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">- Web browser harus dapat menampilkan konten html dan image dilayar browser</span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Point
+bonus bagi tim yang dapat memberikan fitur lebih diluar fitur yang
+dideskripsikan pada tugas ini. Jika dan hanya jika fitur tambahan
+tersebut bermanfaat.</span></span></p>
+<p style="margin-bottom: 0in;" align="left">&nbsp;</p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b>Pengumpulan</b></span></span></p>
+<p style="margin-bottom: 0in; font-weight: normal;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Dokumen
+yang dikumpulkan HANYA file program&nbsp; dalam bahasa java lengkap
+dengan penjelasan/komentarnya. Sertakan no kelompok, nama anggota dan
+npm pada komentar program.<br></span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b><br>Penilaian</b></span></span></p>
+<p style="margin-bottom: 0in; font-weight: normal;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;">Program
+harus didemokan dihadapan asisten. Tanpa demo nilai tugas adalah 0.
+Akurasi program (65%) dan penjelasan/komentar program (35%)<br></span></span></p>
+<p style="margin-bottom: 0in;" align="left"><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b><br>Batas Akhir Pengumpulan</b></span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: Nimbus Roman No9 L,serif;"><b>Kamis, 27 Oktober 2011. Pukul 23.55 WIB </b><span style="font-weight: normal;">melalui halaman kuliah Jaringan Komputer di Scele.</span> Sebelum file di kirim, kompres file java Anda dengan format: <span style="font-family: Courier New,monospace;">NoKelompok-Kelas-tk01.zip</span></span></span></p></div><div class="modified">Last modified: Thursday,  20 October 2011, 11:39 AM</div></div><div id="footer"><p class="helplink"></p><div class="logininfo">You are logged in as <a href="http://scele.cs.ui.ac.id/user/view.php?id=2636&amp;course=1151">0906510470 Prahesa Kusuma Setia</a>  (<a href="http://scele.cs.ui.ac.id/login/logout.php?sesskey=bZtYVMRdih">Logout</a>)</div><div class="homelink"><a href="http://scele.cs.ui.ac.id/course/view.php?id=1151">IKO31503 - GSL1112</a></div></div>
+</div>
+
+<script type="text/javascript" src="view_files/jquery.js"></script>
+<script type="text/javascript">
+	$(function() {	
+		$("#top_menu ul li.link").each(function(){
+			$(this).removeClass("link").addClass("link2");
+		});
+		$("#top_menu ul li.link2").hoverIntent(function(){
+				$(this).find("ul").fadeIn().show();
+			},function(){
+				$(this).find("ul").hide();
+			}
+		);		
+	});
+</script>
+	<script type="text/javascript" src="view_files/tiny_mce_gzip.js"></script>	
+	<script type="text/javascript">
+		var textareas = document.getElementsByTagName('textarea');
+		if(textareas.length >0){			
+			tinyMCE_GZ.init({
+				plugins : "safari,table,emotions,insertdatetime,preview,searchreplace,print,contextmenu,paste,directionality,fullscreen,visualchars,inlinepopups",
+				themes : 'advanced',
+				languages : 'en',
+				disk_cache : true,
+				debug : false
+			});
+		}
+	</script>
+<script type="text/javascript">
+	var textareas = document.getElementsByTagName('textarea');
+   	if(textareas.length >0){
+  					tinyMCE.init({
+				// General options
+				editor_selector: "form-textarea",
+				mode : "textareas",
+				theme : "advanced",
+				skin: "o2k7",
+				//skin_variant: "silver",
+				button_tile_map : true,
+				width:"595px",
+				verify_html : false,
+				entity_encoding : "raw",
+				plugins : "safari,table,emotions,insertdatetime,preview,searchreplace,print,contextmenu,paste,directionality,fullscreen,visualchars,inlinepopups",
+				
+				// Theme options
+				theme_advanced_buttons1 : "formatselect,fontselect,fontsizeselect,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,sub,sup,|,undo,redo,|,search",
+				theme_advanced_buttons2 : "bullist,numlist,|,outdent,indent,|,forecolor,backcolor,|,link,unlink,anchor,image,emotions,charmap,cleanup,code,|,insertdate,inserttime,table,hr,visualaid,|,ltr,rtl,|,fullscreen,preview,print",
+				theme_advanced_buttons3 : "",
+				theme_advanced_toolbar_location : "top",
+				theme_advanced_toolbar_align : "left",
+				theme_advanced_statusbar_location : "bottom",
+				theme_advanced_resizing : true,
+		
+				relative_urls: false,
+			    remove_script_host: true,
+				theme_advanced_resize_horizontal: false,
+				theme_advanced_resize_vertical: true,
+				theme_advanced_resizing: true,
+				
+				document_base_url : "http://scele.cs.ui.ac.id",
+				force_br_newlines: false,
+				convert_newlines_to_brs: false,
+				apply_source_formatting: true				
+			});
+		   	}
+</script>
+</body></html>
