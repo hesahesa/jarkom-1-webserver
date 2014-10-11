@@ -6,4 +6,5 @@ Tugas 1 Jarkom, Fakultas Ilmu Komputer Universitas Indonesia
 Prahesa Kusuma Setia (0906510470)
 
 Compile: javac *.java
-Run: java WebServer <portNumber>
+
+Run: java WebServer \<portNumber\>
